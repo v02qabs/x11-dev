@@ -27,7 +27,7 @@ int main() {
             // 左クリック（ボタン1）
             if (event.xbutton.button == Button1) {
                 printf("Left click detected, closing window...\n");
-                XDestroyWindow(display, window);  // ウィンドウを閉じる
+                XDestroyWindow(display, window);  // ウィンドウを閉!じる
                 break;  // イベントループを終了
             }
         }
